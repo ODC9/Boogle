@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil</title>
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <!--<script src="https://kit.fontawesome.com/49024fb97e.js" crossorigin="anonymous"></script>-->
+    <!-- end font awesome-->
+
+    <!-- Le css Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+
+    <!--Mon CSS-->
+    <link rel="stylesheet" href="main.css">
+            
+</head>
+<body>
+  <!--Start navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Web</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active lien" aria-current="page" href="#">Images</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark">|</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link lien" href="#">Maps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark">|</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link lien" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark">|</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle lien" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              more
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Option 1</a></li>
+              <li><a class="dropdown-item" href="#">Option 2</a></li>
+              <li><a class="dropdown-item" href="#">Option 3</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="nav d-flex">
+          <li class="nav-item">
+            <a class="nav-link lien" href="#">iBoogle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark">|</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link lien" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark">|</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link lien" href="pageConnexionAccueil.html">Log in</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End navbar-->
+
+  <!--Start middle-->
+  <section class="corps flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-5 txtBoogle text-center">
+          Boogle
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col-sm-6">
+          <input class="form-control rounded-0 mx-0" type="search" placeholder="" aria-label="Search">
+        </div>
+        <div class="col-sm-2 mx-0 px-0">
+          <a class="link-primary" href="#">Advanced Search <br> Preferences</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-8 justify-content-md-center d-flex">
+          <div class="col-sm-9 justify-content-center">
+            <a href="pageRechercheNonConnecte.html" class="btn bouton1 btn-outline-dark py-0 ms-0 me-5 rounded-0" role="button">Boogle Search</a>
+            <a href="#" class="btn bouton2 btn-outline-dark py-0 rounded-0" role="button">I'll Feeling Lucky</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--End middle-->
+
+  <!--Start footer-->
+  <div class="card-footer pied_page fixed-bottom">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+      <div class="container-fluid justify-content-center">
+        <div class="row">
+          <div class="col">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link lien" href="#">Advertising Programs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark">|</a>
+              </li>
+              
+
+              <li class="nav-item">
+                <a class="nav-link lien" href="#">Business Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark">|</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link lien" href="#">About Boogle</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row text-center">
+      <div class="col">
+        (c) 2008 Boogle
+      </div>
+    </div>
+    
+  </div>
+  <!--End footer-->
+  <!-- Le javascript Bootstrap -->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!--<script src="https://kit.fontawesome.com/49024fb97e.js"></script>-->
+  <!-- en javascript bootstrap -->
+</body>
+</html>
